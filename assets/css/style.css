@@ -21,7 +21,7 @@ html[data-theme="dark"] {
     --color-bg-sub: #18181C;
     --color-text-main: #FAFAFC;
     --color-text-sub: #FFFEFF;
-    --color-text-link: #F78D55;
+    --color-text-link: #31ad82;
     --color-border-dark: #E6E6E6;
     --color-border: #696969;
     --color-border-light: #353535;
@@ -35,7 +35,7 @@ html[data-theme="dark"] {
         --color-bg-sub: #18181C;
         --color-text-main: #FAFAFC;
         --color-text-sub: #FFFEFF;
-        --color-text-link: #F78D55;
+        --color-text-link: #31ad82;
         --color-border-dark: #E6E6E6;
         --color-border: #696969;
         --color-border-light: #353535;
