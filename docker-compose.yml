@@ -18,6 +18,8 @@ services:
       - ./_notes:/usr/src/app/_notes
       - ./assets:/usr/src/app/assets
       - ./pages:/usr/src/app/pages
+      - ./_includes:/usr/src/app/_includes
+      - ./_layouts:/usr/src/app/_layouts
     ports:
       - "4000:4000"
     tty: true
