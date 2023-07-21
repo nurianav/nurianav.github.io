@@ -4,6 +4,7 @@ feed: hide
 date: 19-07-2023
 permalink: /favorite-books
 format: list
+
 ---
 
 - The Name of the Wind - *Patrick Rothfuss*
