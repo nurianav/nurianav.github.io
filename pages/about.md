@@ -1,6 +1,10 @@
 ---
+layout: Post
+permalink: /about
 title: About
+content-type: static
 ---
+
 I was born and raised in Catalonia. In 2020 I finished my BSc in Theoretical Physics at the University of Barcelona, with <a href="{{'/assets/docs/NavarroNuria_TFG.pdf' | relative_url}}" target="_blank">Black Holes in Higher Dimensions</a> as my final thesis, directed by Roberto Emparan. I relocated to study my MSc in Physics at The Hebrew University of Jerusalem. I'm graduating by the end of 2023, my thesis is on the remnants of tidal partial disruption of red giants, with Tsvi Piran as my advisor.
 
 The topics I find most exciting are General Relativity and Quantum Field Theory and I’m interested in pursuing an academic career in High Energy Physics, in particular String Theory and other quantum gravity theories. Check my <a href="{{'/assets/docs/NuriaNavarro_CV.pdf' | relative_url}}" target="_blank">CV</a>.
