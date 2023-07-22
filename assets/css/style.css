@@ -14,7 +14,7 @@ html[data-theme="light"] {
     --color-border-dark: #363636;
     --color-border: #BABCBD;
     --color-border-light: #E5E5E5;
-    --color-highlight: #2b997250;
+    --color-text-highlight: #2b997250;
 }
 
 html[data-theme="dark"] {
@@ -26,7 +26,7 @@ html[data-theme="dark"] {
     --color-border-dark: #E6E6E6;
     --color-border: #696969;
     --color-border-light: #353535;
-    --color-highlight: #2b997250;
+    --color-text-highlight: #2b997250;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -357,12 +357,12 @@ ul ul {
 
 /* 08. Figures, Images, Code, Blockquotes, Tables */
 
-.highlight {
+.text-highlight {
     position: relative;
 }
 
-.highlight::before {
-    background-color: var(--color-highlight);
+.text-highlight::before {
+    background-color: var(--color-text-highlight);
     content: "";
     position: absolute;
     width: calc(100% + 4px);
