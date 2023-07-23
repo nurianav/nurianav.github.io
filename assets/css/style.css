@@ -651,30 +651,31 @@ hr {
     color: var(--color-text-sub) !important;
 }
 
+.is-fixed {
+    position: sticky;
+}
 
 #markdown-toc::before {
-    content: "Contents";
+    content: "TABLE OF CONTENTS";
     font-weight: bold;
     text-align: center;
 }
 
 
 #markdown-toc li {
-    margin-left: 1rem;
     list-style: decimal;
 }
 
 #markdown-toc li * {
-    padding-left: 3px;
 }
 
 #markdown-toc {
-    padding: 1.5em;
-    list-style: decimal;
+    margin-top: 5rem;
+    padding-left: 1.5em;
+    list-style-type: upper-roman;
     display: inline-block;
     background: var(--color-bg-main);
     width: 100%;
-    margin: 0;
 }
 
 #markdown-toc a {
