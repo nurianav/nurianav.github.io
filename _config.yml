@@ -83,6 +83,9 @@ kramdown:
 sass:
   style: compressed
 
+toc:
+  sublist_class: my-sublist-class
+
 defaults:
   - scope:
       path: ""

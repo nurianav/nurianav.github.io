@@ -58,7 +58,7 @@ html[data-theme="dark"] {
 :root {
     --text-xs: clamp(0.70rem, calc(0.79rem + -0.06vw), 0.78rem);
     --text-s: clamp(0.94rem, calc(0.94rem + 0.00vw), 0.94rem);
-    --text-m: clamp(1.40rem, calc(1.11rem + 0.09vw), 1.50rem);
+    --text-m: clamp(1.35rem, calc(1.11rem + 0.09vw), 1.45rem);
     --text-l: clamp(1.55rem, calc(1.30rem + 0.23vw), 1.67rem);
     --text-xl: clamp(1.62rem, calc(1.53rem + 0.43vw), 2.22rem);
     --text-xxl: clamp(1.94rem, calc(1.80rem + 0.73vw), 2.96rem);
@@ -91,6 +91,7 @@ h1 {
 
 h2 {
     font-size: var(--text-m);
+    font-family: 'Crimson text', serif;
     line-height: var(--text-leading-normal);
     font-weight: var(--text-weight-bold);
     padding: var(--padding-normal) 0;
@@ -100,6 +101,7 @@ h2 {
 
 h3 {
     font-size: var(--text-xl);
+    font-family: 'Crimson text', serif;
     line-height: var(--text-leading-normal);
     font-weight: var(--text-weight-normal);
     padding: var(--padding-normal) 0;
@@ -107,6 +109,7 @@ h3 {
 
 h4 {
     font-size: var(--text-l);
+    font-family: 'Crimson text', serif;
     line-height: var(--text-leading-wide);
     font-weight: var(--text-weight-bold);
     padding: var(--padding-thin) 0;
@@ -651,40 +654,55 @@ hr {
     color: var(--color-text-sub) !important;
 }
 
-.is-fixed {
-    position: sticky;
-}
 
 #markdown-toc::before {
-    content: "TABLE OF CONTENTS";
+    content: "Table of contents";
     font-weight: bold;
     text-align: center;
 }
 
-
-#markdown-toc li {
-    list-style: decimal;
-}
-
-#markdown-toc li * {
-}
-
 #markdown-toc {
     margin-top: 5rem;
-    padding-left: 1.5em;
-    list-style-type: upper-roman;
+    margin-left: 3em;
     display: inline-block;
     background: var(--color-bg-main);
     width: 100%;
+    font-size: smaller;
 }
 
-#markdown-toc a {
-    text-decoration: none;
-}
+.section-nav {
+    margin-left: 0;
+    padding-left: 0.5rem; 
+    list-style: none;
+    color: var(--color-text-sub);
+  }
 
-#markdown-toc a:hover {
-    text-decoration: underline;
-}
+.section-nav a {
+    color: var(--color-text-sub);
+  }
+
+.section-nav a:hover {
+    color: var(--color-text-link);
+  }
+
+.toc-entry {
+    padding: 0.2rem;
+  }
+  
+.toc-entry.toc-h2 {
+    text-transform: uppercase;
+    padding-top:0.5rem;
+  }
+  
+.my-sublist-class {
+    text-transform: lowercase;
+    font-size: small;
+    margin-left:-2rem;
+    list-style:none;
+  }
+
+  
+  
 
 
 /* Common custom components between Main Site and Notes: Searchbar, Backbutton, ContentBox, Related Posts/Notes, Copyright,  */
