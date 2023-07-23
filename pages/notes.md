@@ -2,7 +2,6 @@
 layout: Post
 permalink: /notes
 feedformat: card
-title: Blog
+title: Notes
 ---
 
-No posts yet! Coming soon.

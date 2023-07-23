@@ -9,7 +9,7 @@ I was born and raised in Catalonia. In 2020 I finished my BSc in Theoretical Phy
 
 The topics I find most exciting are General Relativity and Quantum Field Theory and I’m interested in pursuing an academic career in High Energy Physics, in particular String Theory and other quantum gravity theories. Check my <a href="{{'/assets/docs/NuriaNavarro_CV.pdf' | relative_url}}" target="_blank">CV</a>.
 
-However, my passion and curiosity goes well beyond physics. Check out my <a href="{{'/notes' | relative_url}}">blog</a> to read some of my thoughts and experiences as I try to navigate life and become a better human, or keep reading about my interests and other projects.
+However, my passion and curiosity goes well beyond physics. Check out my <a href="{{'/blog' | relative_url}}">blog</a> to read some of my thoughts and experiences as I try to navigate life and become a better human, or keep reading about my interests and other projects.
 
 # Interests
 
