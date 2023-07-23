@@ -274,13 +274,25 @@ a .meta-title {
     cursor: pointer;
     background-color: var(--color-bg-main);
     padding: 16px;
-    border-bottom: 1px solid var(--color-border);
-
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;  
 }
 
 .related-group:hover {
-    border-bottom: 1px solid var(--color-text-link);
     background-color: var(--color-bg-sub);
+    border-radius: 5px;
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.133);
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;  
 }
 
 .related-group a {
@@ -314,15 +326,28 @@ ul ul {
     color: var(--color-text-main);
     display: block;
     padding: 1rem;
-    border-bottom: 1px solid var(--color-border-light);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;  
 }
 
 .notelist-feed:hover {
     color: var(--color-text-main);
     display: block;
     padding: 1rem;
-    border-bottom: 1px solid var(--color-text-link);
     background-color: var(--color-bg-sub);
+    border-radius: 5px;
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.133);
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;  
 }
 
 .notelist-feed a {

@@ -6,4 +6,4 @@ feed-from: posts
 title: Blog
 ---
 
-No posts yet! Come back soon.
+No posts yet! Come back soon
