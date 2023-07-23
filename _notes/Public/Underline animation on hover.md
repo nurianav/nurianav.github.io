@@ -1,11 +1,13 @@
 ---
 title: Underline animation on hover
-feed: hide
+content-type: notes
+feed: show
 date: 2023-07-22
 tags: coding, css
 ---
 
 Nice css for underlining 
+[[This is an example note]]
 
 ```css
 a {

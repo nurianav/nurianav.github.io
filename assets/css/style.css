@@ -1391,7 +1391,7 @@ label.srs-toggle {
 }
 
 #copyright {
-    margin: 4rem 0 1rem 0;
+    margin: 5rem 0 1rem 0;
 }
 
 #copyright-notice {
@@ -1630,6 +1630,7 @@ a[href^="http"] {
 .home-sub-text {
     padding-top: 2rem;
     color: var(--color-text-sub);
+    font-size: var(--text-xl);
 }
 
 /*Home page links and decors*/

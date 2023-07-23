@@ -1,6 +1,7 @@
 ---
 title: Favorite books
 feed: hide
+content-type: notes
 date: 2023-07-19
 permalink: /favorite-books
 format: list

@@ -32,7 +32,7 @@
 <!--Notes Feed-->
 <!--Static Page : pages/notes.md-->
 
-{%- if page.feedformat == "card" -%}
+{%- if page.feedformat == "card" and page.feed-from == "notes" -%}
     {%- if site.preferences.search.enabled -%}
         <!-- search bar -->
         <div class="block">
@@ -60,18 +60,39 @@
     </div>
 {%-endif -%}
 
+<!--Static Page : pages/blog.md-->
+
+{%- if page.feedformat == "card" and page.feed-from == "posts" -%}
+    <!-- feed with filter-->
+    <div class="related-wrapper">
+    {% assign post_items = site.posts | sort: "date" | reverse %}
+    {% for post_item in post_items %}
+        {%- if post_item.feed == "show" -%}
+                <div class="notelist-feed">
+                    <a href="{{ site.baseurl }}{{post_item.url}}">
+                        <h6>{{ post_item.title }}</h6>
+                        <p class="excerpt">
+                            {{ post_item.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncate: 200 }}
+                        </p>
+                    </a>
+                </div>
+        {%- endif -%}
+    {%- endfor -%}
+    </div>
+{%-endif -%}
+
 <!--Dynamic List Feed-->
 <!--Static Page : pages/lists.md-->
 
 {%- if page.feedformat == "row" -%}
 <div class="block">
     {% assign note_items = site.notes | sort: "date" | reverse %}
-    {% for note_items in note_items %}
-        {%- if note_items.format == "list" -%}
+    {% for note_item in note_items %}
+        {%- if note_item.format == "list" and note_item.feed == "show" -%}
             <div class="list-feed">
-                    <a href="{{ site.baseurl }}{{note_items.url}}" style="text-decoration: none;display: flex;justify-content: space-between;flex-direction: row;width: 100%;">
+                    <a href="{{ site.baseurl }}{{note_item.url}}" style="text-decoration: none;display: flex;justify-content: space-between;flex-direction: row;width: 100%;">
                         <div class="writinglist-title">
-                            {{note_items.title }}
+                            {{note_item.title }}
                         </div>
                     </a>
             </div>
