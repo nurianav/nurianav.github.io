@@ -6,8 +6,7 @@ date: 2023-07-22
 tags: coding, css
 ---
 
-Nice css for underlining 
-[[This is an example note]]
+The css for underlining that I use on this page.
 
 ```css
 a {

@@ -1,11 +1,11 @@
 ---
 title: Another test
 toc: true
-feed: show
+feed: hide
 content-type: post
 ---
 
-[[Test]]
+A link: [[Test]]
 
 ## Iove sed luce per natarum
 
