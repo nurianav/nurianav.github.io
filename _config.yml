@@ -30,7 +30,7 @@ baseurl: ""
 heading: Núria Navarro # Change this 
 content: Personal Page
 copyright:  
-  year: © 2023
+  year: © 2024
   msg: Contents under CC-BY-NC 
 
 # Set title and content for private & broken link tooltop
@@ -63,7 +63,8 @@ plugins:
   - jekyll-sitemap 
   - jekyll-tidy
   - jekyll-toc
-    
+  - jekyll-scholar
+
 ## Enable Collections
 ## Suggested collects are "notes" "lists" and "blog"
 collections:
@@ -88,6 +89,9 @@ sass:
 
 toc:
   sublist_class: my-sublist-class
+
+scholar:
+  style: begell-house-apa
 
 defaults:
   - scope:

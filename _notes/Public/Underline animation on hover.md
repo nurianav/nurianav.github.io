@@ -3,7 +3,8 @@ title: Underline animation on hover
 content-type: notes
 feed: show
 date: 2023-07-22
-tags: coding, css
+tags:
+  - coding
 ---
 
 The css for underlining that I use on this page.

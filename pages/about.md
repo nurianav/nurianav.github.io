@@ -5,11 +5,13 @@ title: About
 content-type: static
 ---
 
-I was born and raised in Catalonia. In 2020 I finished my BSc in Theoretical Physics at the University of Barcelona, with <a href="{{'/assets/docs/NavarroNuria_TFG.pdf' | relative_url}}" target="_blank">Black Holes in Higher Dimensions</a> as my final thesis, directed by Roberto Emparan. I relocated to study my MSc in Physics at The Hebrew University of Jerusalem. I'm graduating by the end of 2023, my thesis is on the remnants of tidal partial disruption of red giants, with Tsvi Piran as my advisor.
+I was born and raised in Catalonia. In 2020 I finished my BSc in Theoretical Physics at the University of Barcelona, with <a href="{{'/assets/docs/NavarroNuria_TFG.pdf' | relative_url}}" target="_blank">Black Holes in Higher Dimensions</a> as my final thesis, directed by Roberto Emparan. I relocated to study my MSc in Physics at The Hebrew University of Jerusalem, where I <a href="{{'/assets/docs/NavarroNuria_MSc_thesis.pdf' | relative_url}}" target="_blank">researched</a> "The surviving remnants of red giants after a partial tidal disruption event" with Tsvi Piran as my advisor.
 
 The topics I find most exciting are General Relativity and Quantum Field Theory and I’m interested in pursuing an academic career in High Energy Physics, in particular String Theory and other quantum gravity theories. Check my <a href="{{'/assets/docs/NuriaNavarro_CV.pdf' | relative_url}}" target="_blank">CV</a>.
 
-However, my passion and curiosity goes well beyond physics. Check out my <a href="{{'/blog' | relative_url}}">blog</a> to read some of my thoughts and experiences as I try to navigate life and become a better human, or keep reading about my interests and other projects.
+However, my passion and curiosity goes well beyond physics. I am currently taking some courses in philosophy at the Open University of Catalonia.
+
+Check out my <a href="{{'/blog' | relative_url}}">blog</a> to read some of my thoughts and experiences as I navigate life or keep reading about my interests and other projects.
 
 # Interests
 
@@ -20,12 +22,13 @@ I'm a polyglot and a language enthusiast. I could spend hours and hours talking 
 
 ## Music
 
-I've been playing the piano for as long as I can remember. It's one of my favorite ways of unwinding and expressing my feelings. At some point I considered pursuing a professional career as a pianist, but since one can't do it all, I traded that dream with my future self. I once recorded myself playing <a href="{{'/post/chopin' | relative_url}}">Chopin</a>.
+I've been playing the piano for as long as I can remember. It's one of my favorite ways of unwinding and expressing my feelings. I once recorded myself playing <a href="{{'/post/chopin' | relative_url}}">Chopin</a>.
+I also like dancing, I am learning popping and dancehall.
 
 
 ## Books
 
-I'm a true bookworm and book hoarder. Check out my <a href="https://www.goodreads.com/user/show/13779947-n-ria" target="_blank">Goodreads</a> or this small list of my [[Favorite books]]. I am also a writer, but that's a work in progress.
+I'm a true bookworm and book hoarder. Check out my <a href="https://www.goodreads.com/user/show/13779947-n-ria" target="_blank">Goodreads</a> or this small list of my [[Favorite books]]. I am also a writer, but that's still a work in progress.
 
 
 ## Handcrafting and drawing
@@ -41,7 +44,6 @@ I practice Ashtanga Yoga since 2021, though I'm still learning how to be consist
 ## Activism
 
 I care about my impact on the planet, the animals and the people that surround me, so I try to be mindful about my choices. I am vegan, feminist and I advocate for intersectionality.
-
 
 
 # Projects 

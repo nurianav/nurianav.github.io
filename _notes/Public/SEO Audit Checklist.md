@@ -3,7 +3,8 @@ title: SEO Audit Checklist
 content-type: notes
 feed: show
 date: 2023-07-24
-tags: seo
+tags:
+  - seo
 ---
 
 These are notes from this [post](https://backlinko.com/seo-site-audit)

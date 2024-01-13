@@ -3,7 +3,8 @@ title: On-page optimization
 content-type: notes
 feed: show
 date: 2023-07-24
-tags: seo
+tags:
+  - seo
 ---
 
 The following are the main key points from this [guide](https://backlinko.com/on-page-seo).

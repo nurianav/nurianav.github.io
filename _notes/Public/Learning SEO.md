@@ -3,7 +3,8 @@ title: Learning SEO
 content-type: notes
 feed: show
 date: 2023-07-24
-tags: seo
+tags:
+  - seo
 ---
 
 Three key areas:
