@@ -16,9 +16,12 @@ WORKDIR /usr/src/app
 COPY . /usr/src/app
 
 RUN chmod 755 /usr/local/bundle 
+
 #RUN gem install bundler -v $BUNDLER_VERSION
 
 RUN bundle install
+
+#RUN bundle lock --add-platform x86_64-linux
 
 CMD ["bundle", "exec", "jekyll", "serve", "--trace", "--livereload", "--incremental", "--force_polling", "--host", "0.0.0.0"]
 
